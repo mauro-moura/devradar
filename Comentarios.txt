@@ -1,0 +1,30 @@
+Backend
+
+// Métodos HTTP: GET, POST, PUT, DELETE
+
+// Tipos de parâmetros:
+
+// Query Params: request.query (Filtros, ordenação, paginação, ...) => GET
+// Route Params: request.params (Identificar um recurso na alteração ou remoção) => PUT, DELETE
+// Body: request.body (Dados para criação ou alteração de um registro) => POST, PUT
+
+// MongoDB (Não-Relacional)
+
+
+Front-end
+
+// Componente: Bloco isolado de HTML, CSS, JS, o qual não interfere no restante da aplicação
+// Componente: Função que retorna algum conteúdo HTML/CSS/JS
+// Não afeta outros componentes que podem repetir
+
+// Informações que um componente PAi passa para o componente FILHO
+// Propriedade: Atributo de um componente
+// Por exemplo um título
+
+// Estado: Informações mantidas pelo componente (lembrar: imutabilidade)
+
+Requisições
+
+HTTP:
+
+REQUISIÇÃo Frontend -> Backend -> RESPOSTA Front-end
